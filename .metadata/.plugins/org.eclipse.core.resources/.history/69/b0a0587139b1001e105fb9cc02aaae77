@@ -1,0 +1,11 @@
+
+public class RoomDemo {
+
+	public static void main(String[] args) {
+		
+		int mathMark = 50;
+		
+		Room studyRoom = new Room();
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Room{
+	double length;
+	double height;
+	double width;
+
+	public double floorArea(){
+		double fArea = length * width;
+		return fArea;
+	}
+	public double costOfPaintingWalls(){
+		double wallArea = (2 * length * height) + (2 * width * height);
+		double costOfPainting = wallArea * 2;
+		return costOfPainting;
+	}
+}

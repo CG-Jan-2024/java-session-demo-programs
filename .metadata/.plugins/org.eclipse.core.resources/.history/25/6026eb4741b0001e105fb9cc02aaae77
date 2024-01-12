@@ -1,0 +1,49 @@
+
+public class PrimitiveDemo {
+
+	public static void main(String[] args) {
+		byte cityCount = 30; // 1 byte 
+
+		short countryCount = 100; // 2 bytes
+		
+		int mathMark = 222; // 4 bytes
+		
+		long salary = 32343435; // 8 bytes
+		
+		System.out.println(mathMark);
+		System.out.println(cityCount);
+		System.out.println(countryCount);
+		System.out.println(salary);
+		
+		int myCityCount = cityCount; // implicit casting
+		
+		byte myMathMark = (byte)mathMark; // explicit casting
+	
+		boolean flag= true;
+		
+		System.out.println(flag);
+		
+		char myLetter = 'g';
+		
+		System.out.println(myLetter);
+		
+		double cost = 34.5;
+		System.out.println(cost);
+		
+		
+		//float rate = (float)2.25;
+		//float rate = 2.25F;
+		float rate = 2.25f; // preferred
+		System.out.println(rate);
+		
+		// there is a link between int and char
+		char ch = 's';
+		System.out.println(ch);
+		System.out.println((int)ch);
+		
+		int data = 98;
+		System.out.println(data);
+		System.out.println((char)data);
+	}
+
+}

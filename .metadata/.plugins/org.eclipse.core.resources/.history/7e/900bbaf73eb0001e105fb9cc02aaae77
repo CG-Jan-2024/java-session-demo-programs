@@ -1,0 +1,11 @@
+
+public class PrimitiveDemo {
+
+	public static void main(String[] args) {
+		
+		
+		int mathMark = 70;
+		System.out.println(mathMark);
+	}
+
+}

@@ -1,0 +1,51 @@
+
+public class BitwiseOperatorDemo {
+
+	
+	//	bitwise operators
+	//	-----------------
+	//	& - bitwise AND
+	//	| - bitwise OR
+	//	^ - bitwise XOR
+	//	<< - Left shift bitwise operator
+	//	>> - right shift bitwise operator
+	//	>>> - unsigned right shift bitwise operator
+	
+	public static void main(String[] args) {
+		int num1 = 5;
+		int num2 = 3;
+		
+		int answer1 = num1 & num2;
+		System.out.println("num1 & num2 : " + answer1);
+		// 0000 0101
+		// 0000 0011
+		// ----------
+		// 0000 0001
+		//-----------
+		// 1
+		
+		int answer2 = num1 | num2;
+		System.out.println("num1 | num2 : " + answer2);
+		
+		int answer3 = num1 ^ num2;
+		System.out.println("num1 ^ num2 : " + answer3);
+		
+		int answer4 = 12 >> 3; // 0000 1100 >> 2, 0000 0110, 0000 0011, 0000 0001
+		// 12 / 2 power 3 =  12 / 8 = 1
+		System.out.println("12 >> 3 : " + answer4);
+		
+		int answer5 = 12 << 3; // 0000 1100 << 3 , 0001 1000, 0011 0000, 0110 0000
+		// 12 * 2 power 3 = 12 * 8 = 96
+		System.out.println("12 << 3 : " + answer5);
+		
+		int answer6 = 12 >>> 3; // 0000 1100 >> 2, 0000 0110, 0000 0011, 0000 0001
+		System.out.println("12 >>> 3 : " + answer6);
+		
+		int answer7 = -12 >>> 3; // 0000 1100 >> 2, 0000 0110, 0000 0011, 0000 0001
+		System.out.println("-12 >>> 3 : " + answer7);
+		
+		int answer8 = -12 >> 3; // 0000 1100 >> 2, 0000 0110, 0000 0011, 0000 0001
+		System.out.println("-12 >> 3 : " + answer8);
+		
+	}
+}

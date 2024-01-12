@@ -1,0 +1,28 @@
+
+public class BitwiseOperatorDemo {
+
+	public static void main(String[] args) {
+		int num1 = 5;
+		int num2 = 3;
+		
+		int answer1 = num1 & num2;
+		System.out.println("num1 & num2 : " + answer1);
+		// 0000 0101
+		// 0000 0011
+		// ----------
+		// 0000 0001
+		//-----------
+		// 1
+		
+		int answer2 = num1 | num2;
+		System.out.println("num1 | num2 : " + answer2);
+		
+		int answer3 = num1 ^ num2;
+		System.out.println("num1 ^ num2 : " + answer3);
+		
+		int answer4 = 12 >> 2; // 0000 1100 >> 2, 0000 0110, 0000 0011
+		System.out.println("12 >> 2 : " + answer4);
+		
+
+	}
+}
