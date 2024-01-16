@@ -4,9 +4,7 @@ public class Room{
 	double width;
 	int roomNo;
 	String roomColor;
-	
 	static int wallThickness; // made it static because the value is the same for any object create
-	
 	static {
 		wallThickness = 30;
 	}
@@ -48,13 +46,7 @@ public class Room{
 		this.roomColor = roomColor;
 	}
 	
-	public static double computeThickness() {
-		double thickness = 1.5 * wallThickness;
-		return thickness;
-	}
-	
 	public double floorArea(){
-		System.out.println(wallThickness);
 		double fArea = length * width;
 		return fArea;
 	}

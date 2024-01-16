@@ -22,9 +22,6 @@ public class RoomDemo {
 		
 		System.out.println("floor area of dining room : " + diningRoom.floorArea());
 		
-		Room bedroom = new Room(250, 150, 150, 501, "lightpink");
-		
-		
 	}
 
 }

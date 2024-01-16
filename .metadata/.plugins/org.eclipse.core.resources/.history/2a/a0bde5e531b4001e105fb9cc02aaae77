@@ -49,12 +49,12 @@ public class Room{
 	}
 	
 	public static double computeThickness() {
+		System.out.println(length);
 		double thickness = 1.5 * wallThickness;
 		return thickness;
 	}
 	
 	public double floorArea(){
-		System.out.println(wallThickness);
 		double fArea = length * width;
 		return fArea;
 	}
