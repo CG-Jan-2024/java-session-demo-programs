@@ -16,7 +16,6 @@ public class TwoDimensionalDemo {
 			for(int j=0;j<matrixA[i].length;j++) {
 				System.out.print(matrixA[i][j] + " ");
 			}
-			System.out.println();
 		} 
 		
 		// irregular dimensional array - look into it
