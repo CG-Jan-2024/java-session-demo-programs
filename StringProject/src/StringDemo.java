@@ -66,6 +66,7 @@ public class StringDemo {
 		sb = sb.reverse();
 		String str14 = new String(sb);
 		System.out.println(str14);
+		
 		String str15 = "";
 		for(int i=str13.length()-1;i>=0; i--) {
 			str15 += str13.charAt(i);
