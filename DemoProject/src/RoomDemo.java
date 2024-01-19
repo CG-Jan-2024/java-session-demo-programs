@@ -3,6 +3,8 @@ public class RoomDemo {
 
 	public static void main(String[] args) {
 		
+		Room.computeThickness();
+		
 		int mathMark = 50;
 		
 		Room studyRoom = new Room(500, 300, 150);
@@ -23,8 +25,5 @@ public class RoomDemo {
 		System.out.println("floor area of dining room : " + diningRoom.floorArea());
 		
 		Room bedroom = new Room(250, 150, 150, 501, "lightpink");
-		
-		
 	}
-
 }
