@@ -1,3 +1,4 @@
+import java.util.function.BiFunction;
 
 public class Demo {
 
@@ -42,7 +43,17 @@ public class Demo {
 		Operation multiply2 = (number1, number2) -> number1 * number2;
 		System.out.println("PRODUCT - Using lambda expressions : " + multiply2.operate(3, 5));
 		
+		// here Operation is a user-defined functional interface
+		// we can for the huge list of inbuilt functional interfaces provided by 
+		//			java in java.util.function package instead user defined functional interface
+		// the basic functional interfaces are Supplier, Consumer, Predicate, Function
+		// all other functional interfaces are variations of the above 4
 		
+		BiFunction<Integer, Integer, Integer> add3 = (num1, num2) -> num1 + num2;
+		System.out.println("SUM - Using inbuilt functional inetrface: " + add3.apply(7, 2));
+		
+		BiFunction<Double, Double, Double> multiply3 = (n1, n2) -> n1 * n2;
+		System.out.println("MULTIPLY - Using inbuilt functional inetrface: " + multiply3.apply(7.2, 2.1));
 	}
 
 }
