@@ -1,9 +1,9 @@
 public class Room{
-	double length;
-	double height;
-	double width;
-	int roomNo;
-	String roomColor;
+	private double length;
+	private double height;
+	private double width;
+	private int roomNo;
+	private String roomColor;
 	
 	static int wallThickness; // made it static because the value is the same for any object create
 	
@@ -48,6 +48,56 @@ public class Room{
 		this.roomColor = roomColor;
 	}
 	
+	
+	
+	public double getLength() {
+		return length;
+	}
+
+	public void setLength(double length) {
+		this.length = length;
+	}
+
+	public double getHeight() {
+		return height;
+	}
+
+	public void setHeight(double height) {
+		this.height = height;
+	}
+
+	public double getWidth() {
+		return width;
+	}
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+	public int getRoomNo() {
+		return roomNo;
+	}
+
+	public void setRoomNo(int roomNo) {
+		this.roomNo = roomNo;
+	}
+
+	public String getRoomColor() {
+		return roomColor;
+	}
+
+	public void setRoomColor(String roomColor) {
+		this.roomColor = roomColor;
+	}
+
+	public static int getWallThickness() {
+		return wallThickness;
+	}
+
+	public static void setWallThickness(int wallThickness) {
+		Room.wallThickness = wallThickness;
+	}
+
 	public static double computeThickness() {
 		double thickness = 1.5 * wallThickness;
 		return thickness;
@@ -62,4 +112,5 @@ public class Room{
 		double costOfPainting = wallArea * 2;
 		return costOfPainting;
 	}
+	
 }

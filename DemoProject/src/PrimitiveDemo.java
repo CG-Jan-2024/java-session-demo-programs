@@ -1,7 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class PrimitiveDemo {
 
 	public static void main(String[] args) {
+		
+		List<Integer> all = new ArrayList<Integer>();
+		all.add(5);
+		all.add(2);
+		
+		
 		byte cityCount = 30; // 1 byte 
 
 		short countryCount = 100; // 2 bytes
