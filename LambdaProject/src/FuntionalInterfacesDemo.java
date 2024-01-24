@@ -27,5 +27,4 @@ public class FuntionalInterfacesDemo {
 		Function<Integer, Integer> cube = (num) -> num * num * num;
 		System.out.println("Cube : " + cube.apply(4));
 	}
-
 }
