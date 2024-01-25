@@ -13,6 +13,7 @@ public class Demo {
 	// List
 	//		- we can add duplicate values to a list
 	//		- list is indexed, objects in a list can be accessed with the index
+	//      - the order is maintained
 	// Set
 	//		- we cannot add duplicate values
 	//		- is not indexed
