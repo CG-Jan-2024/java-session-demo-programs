@@ -23,6 +23,7 @@ public class Demo {
 	//		- throw is used to throw custom/user defined exception
 	// throws
 	//		- used to propagate an exception
+	//		- we can progragate more than one exception using throws seperated cy comma
 	// checked exceptions and unchecked exceptions
 	//			unchecked exception
 	//					- RuntimeException and all its sub classes come under unchecked exception

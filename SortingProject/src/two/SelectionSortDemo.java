@@ -16,9 +16,7 @@ public class SelectionSortDemo {
                     largest = i;
                 }
             }
-
             swap(intArray, largest, lastUnsortedIndex);
-
         }
 
         for (int i = 0; i < intArray.length; i++) {
